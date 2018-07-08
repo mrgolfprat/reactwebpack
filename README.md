@@ -28,14 +28,14 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 
-to run this project please following commands below
-
-```
-npm run build
-```
-And 
+to run this project please following this command below
 
 ```
 npm start
 ```
 
+## Deploy 
+
+```
+npm run build
+```
