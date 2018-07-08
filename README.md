@@ -1,6 +1,6 @@
 # react webpack setup
 
-config webpack 4 react 16, babel
+config webpack 4 react 16, babel decorator
 
 ## Getting Started
 
