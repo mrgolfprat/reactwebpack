@@ -9,6 +9,7 @@ export default function navbar(Child) {
             return (
                 <div>
                     <h2>Hello, this is a decorator navigation bar</h2>
+
                     <Child />
                 </div>
             )
