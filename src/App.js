@@ -1,12 +1,18 @@
 import React, { Component } from 'react'
 import './App.css'
+import Navbar from './components/Navbar'
 
-
+@Navbar()
 export default class App extends Component {
 
     alertClick = () => {
         alert('click!!!')
     }
+
+    componentDidMount = async () => {
+
+    }
+
 
     render() {
         return (
