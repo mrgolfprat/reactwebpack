@@ -8,7 +8,7 @@ export default class App extends Component {
     render() {
         return (
             <div className='app-container' >
-                <h1 className='main-title' >This is Main Page</h1>
+                <h1 className='main-title' >This is Main Page 4</h1>
             </div>
         )
     }

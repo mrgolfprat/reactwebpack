@@ -47,7 +47,7 @@ module.exports = {
     extensions: ['*', '.js', '.jsx']
   },
   output: {
-    path: __dirname + '/dist',
+    path: __dirname + '/build',
     publicPath: '/',
     filename: '[name].min.js'
   },
@@ -63,21 +63,18 @@ module.exports = {
     }
   },
   plugins: [
-    // new BundleAnalyzerPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
+    // new BundleAnalyzerPlugi// new webpack.HotModuleReplacementPlugin(),
     new MiniCssExtractPlugin({
       filename: devMode ? `[name].css` : `[name].[hash].css`,
       chunkFilename: devMode ? `[name].css` : `[name].[hash].css`,
     }),
     new HtmlWebPackPlugin({
-      template: "./src/index.html",
+      template: "./public/index.html",
       filename: "./index.html"
-    })
+    }),
 
   ],
   devServer: {
-    contentBase: './dist',
-    hot: true,
     port: 9000
   }
 };
